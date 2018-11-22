@@ -2,10 +2,7 @@ package com.jfs.repository;
 
 import java.util.ArrayList;
 
-import org.springframework.stereotype.Repository;
-
 import com.jfs.model.Customer;
-@Repository("customerRepository")
 
 public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 	/* (non-Javadoc)
