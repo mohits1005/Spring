@@ -1,0 +1,7 @@
+ng new client –-routing
+cd client
+ng serve
+
+ng generate module employee -–routing
+ng generate service employee/employee
+ng generate component /employee/employee-list
