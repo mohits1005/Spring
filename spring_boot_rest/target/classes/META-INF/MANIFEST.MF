@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: mohitsharma
+Build-Jdk: 9.0.4
+Implementation-Title: spring_boot_rest
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.jfs
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/spring_boot_rest
+Created-By: Maven Integration for Eclipse
+
