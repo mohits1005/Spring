@@ -5,7 +5,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 import com.jfs.repository.CustomerRepository;
-import com.jfs.repository.HibernateCustomerRepositoryImpl;
+import com.jfs.repository.CustomerRepositoryImpl;
 import com.jfs.service.CustomerService;
 import com.jfs.service.CustomerServiceImpl;
 
@@ -28,6 +28,6 @@ public class AppConfig {
 //	}
 //	@Bean(name = "customerRepository")
 //	public CustomerRepository getCustomerRepository() {
-//		return new HibernateCustomerRepositoryImpl();
+//		return new CustomerRepositoryImpl();
 //	}
 }

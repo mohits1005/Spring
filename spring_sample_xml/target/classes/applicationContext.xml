@@ -9,7 +9,7 @@
 	<context:annotation-config />
 	<context:property-placeholder location="app.properties" />
 	<bean name="customerRepository"
-	class="com.jfs.repository.HibernateCustomerRepositoryImpl" >
+	class="com.jfs.repository.CustomerRepositoryImpl" >
 	</bean>
 	<bean name="customerService"
 	class="com.jfs.service.CustomerServiceImpl" autowire="byType" scope="prototype">

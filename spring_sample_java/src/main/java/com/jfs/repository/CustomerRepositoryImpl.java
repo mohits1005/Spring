@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.jfs.model.Customer;
 
 @Repository("customerRepository")
-public class HibernateCustomerRepositoryImpl implements CustomerRepository {
+public class CustomerRepositoryImpl implements CustomerRepository {
 	/* (non-Javadoc)
 	 * @see com.jfs.repository.CustomerRepository#findAll()
 	 */

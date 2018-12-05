@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.jfs.model.Customer;
 import com.jfs.repository.CustomerRepository;
-import com.jfs.repository.HibernateCustomerRepositoryImpl;
+import com.jfs.repository.CustomerRepositoryImpl;
 
 @Service("customerService")
 public class CustomerServiceImpl implements CustomerService {

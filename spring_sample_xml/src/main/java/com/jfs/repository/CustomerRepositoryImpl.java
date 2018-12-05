@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 
 import com.jfs.model.Customer;
 
-public class HibernateCustomerRepositoryImpl implements CustomerRepository {
+public class CustomerRepositoryImpl implements CustomerRepository {
 	/* (non-Javadoc)
 	 * @see com.jfs.repository.CustomerRepository#findAll()
 	 */
